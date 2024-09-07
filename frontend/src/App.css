@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dark-mode-toggle {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+.chat-container {
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+section {
+  width: 400px;
+  margin: 20px 0;
+}
+
+section h2 {
+  margin: 0 0 10px 0;
+}
+
+section p {
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.dark-mode .chat-container {
+  background-color: #333;
+  color: white;
+}
+
+.light-mode .chat-container {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .input-container input {
+  background-color: #555;
+  color: white;
+}
+
+.light-mode .input-container input {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .input-container button {
+  background-color: #007bff;
+}
+
+.light-mode .input-container button {
+  background-color: #007bff;
+}
+#about{
+  text-align: center;
+}
